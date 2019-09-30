@@ -12,7 +12,7 @@ class Student(object):
         if self.age < 18:
             print('%s只能观看《熊出没》.' % self.name)
         else:
-            print('%s正在观看岛国爱情大电影.' % self.name)
+            print('%s正在观看大电影.' % self.name)
 
     def __str__(self):
         # print初始化对象时，输出相关参数

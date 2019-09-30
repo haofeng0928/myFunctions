@@ -11,4 +11,3 @@ for file_name in file_list:
         print('更新文件名：', name)
         os.rename(file_name, name)
         print('完成！！！')
-		
