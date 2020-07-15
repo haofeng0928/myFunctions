@@ -13,6 +13,11 @@ arr = [55, 44, 33, 22, 11]
 arr = [list(i) for i in zip(range(1, len(arr) + 1), arr)]
 arr = sorted(arr, key=lambda x: x[1])
 print('list = ', arr)
+arr = [3, 2, 1, -3, -2, -1]
+
+# 正数从小到大，负数从大到小
+arr = sorted(arr, key=lambda x: (x < 0, abs(x)))
+print('abs sort = ', arr)
 
 # tuple排序
 t = (("e", 1), ("d", 2), ("c", 3), ("b", 4), ("a", 5))

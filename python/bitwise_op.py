@@ -23,3 +23,4 @@ mask = 1
 mask <<= 2
 print(mask)
 
+# ^异或运算符
